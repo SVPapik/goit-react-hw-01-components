@@ -74,6 +74,7 @@ export const Label = styled.span`
 `;
 
 export const Quantity = styled.span`
-  font-weight: bold;
   margin-top: 8px;
+  font-weight: bold;
+  filter: drop-shadow(1px 1px 1px black);
 `;
