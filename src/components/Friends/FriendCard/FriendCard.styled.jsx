@@ -7,7 +7,7 @@ export const Item = styled.li`
   padding: 8px;
   background-color: #fff;
   border-radius: 8px;
-  border: 2px solid purple;
+  /* border: 1px solid purple; */
   box-shadow: rgba(106, 2, 125, 0.637) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
