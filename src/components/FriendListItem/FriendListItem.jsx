@@ -1,7 +1,7 @@
-import { Name, Status, Item } from './FriendCard.styled';
+import { Name, Status, Item } from './FriendListItem.styled';
 import PropTypes from 'prop-types';
 
-export const FriendCard = ({ friend: { avatar, name, isOnline } }) => {
+export const FriendListItem = ({ friend: { avatar, name, isOnline } }) => {
   return (
     <Item isOnline={isOnline}>
       <Status isOnline={isOnline}>{isOnline}</Status>
@@ -11,7 +11,7 @@ export const FriendCard = ({ friend: { avatar, name, isOnline } }) => {
   );
 };
 
-FriendCard.propTypes = {
+FriendListItem.propTypes = {
   friend: PropTypes.shape({
     avatar: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,

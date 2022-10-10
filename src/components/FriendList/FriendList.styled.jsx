@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Friends = styled.ul`
+export const FriendsList = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 8px;
